@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: yellow;
+}
+
+.container {
+    border-radius: 10px;
+    width: 550px;
+    padding: 40px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: colum;
+    box-shadow: 0 5px 15px rgb( 0 0 0 0.1);
+}
+
